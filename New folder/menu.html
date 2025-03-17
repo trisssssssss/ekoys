@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekoy's Filipino Desserts - Menu</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #1e1e2f; /* Dark Navy Blue */
+            text-align: center;
+            color: white;
+            padding: 50px 10px;
+            position: relative;
+        }
+
+        /* Menu Title */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        /* Buttons */
+        .buttons {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background: #ffcc00;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #e6b800;
+        }
+
+        /* Menu Grid */
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* Individual Menu Item */
+        .menu-item {
+            background: #292940; /* Slightly lighter dark tone */
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            width: 280px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            color: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .menu-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #fff;
+        }
+
+        .menu-item h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .menu-item p {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffcc00;
+            margin-top: 10px;
+        }
+
+        /* Footer Section with "Back to Top" Button */
+        .footer {
+            margin-top: 50px;
+            padding: 20px 0;
+        }
+
+        .top-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ffcc00;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .top-btn:hover {
+            background: #e6b800;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Home Button at the Top -->
+    <div class="buttons">
+        <a href="business.html" class="btn">Home</a>
+    </div>
+
+    <h1>Our Menu</h1>
+    <p>Enjoy our best homemade Filipino desserts, made with love!</p>
+
+    <div class="menu-container">
+        <!-- Menu Items -->
+        <div class="menu-item">
+            <img src="https://images.notquitenigella.com/images/dream-cake-tin-can-chocolate-filipino/dream-cake-tin-can-chocolate-filipino-12.jpg" alt="Chocolate Dream Cake">
+            <h2>Chocolate Dream Cake</h2>
+            <p>A rich and decadent multi-layered chocolate cake with a gooey center, velvety mousse, and a crisp chocolate shell.</p>
+            <div class="price">&#8369;129</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZg5LescXsqzfBp3DQ-sAT5ZUO-WESTH2plg&s" alt="Lasagna">
+            <h2>Lasagna</h2>
+            <p>A hearty, layered pasta dish with rich meat sauce, creamy béchamel, and melted cheese.</p>
+            <div class="price">&#8369;139</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1Noz7SiemSEEf0kbq-pi_BmniaNX8trjHw&s" alt="Blueberry Cheesecake">
+            <h2>Blueberry Cheesecake</h2>
+            <p>A rich and creamy cheesecake topped with a luscious blueberry compote.</p>
+            <div class="price">&#8369;199</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t1.15752-9/483041924_1152546529951708_3689579434716128491_n.jpg" alt="Buko Pandan">
+            <h2>Buko Pandan</h2>
+            <p>A creamy Filipino dessert with young coconut, pandan jelly, and sweetened cream.</p>
+            <div class="price">&#8369;199</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxvf1C6jC4iwzstIEnGbNnvrajkQ5wToBF3Q&s" alt="Bibingka">
+            <h2>Bibingka</h2>
+            <p>Delicious rice cake baked in banana leaves with salted egg topping.</p>
+            <div class="price">&#8369;249</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjDmA8vSUUNItIxqECOW7Vux3PtsAZr-zmng&s" alt="Mango Graham">
+            <h2>Mango Graham</h2>
+            <p>A no-bake Filipino dessert with layers of ripe mangoes, graham crackers, and creamy milk mixture.</p>
+            <div class="price">&#8369;149</div>
+        </div>
+    </div>
+
+    <!-- Footer with Go Back to Top Button -->
+    <div class="footer">
+        <a href="#" class="top-btn" onclick="scrollToTop()">Go Back to Top</a>
+    </div>
+
+    <!-- JavaScript for Scroll to Top -->
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
